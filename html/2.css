@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header, nav, section, footer {
+    padding: 30px;
+}
+
+header {
+    background-color: rgb(213, 14, 14);
+    color: #fff;
+    text-align: center;
+    font-weight: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: style;
+    color: #0f09c1;
+}
+
+nav ul li a:hover {
+    color: #08ea4c;
+}
+
+section {
+    margin-bottom: 100px;
+    font-size: 22px;
+   
+}
+
+footer {
+    background-color: #d51111;
+    color: #130202f4;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #f4f1f1;
+    color: #0c1511;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0cc81c;
+}
+
